@@ -23,5 +23,5 @@ export class AppComponent {
       index: 2,
     },
   ];
-  activeLink = this.tabs[0];
+
 }
