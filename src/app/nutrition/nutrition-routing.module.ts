@@ -1,3 +1,4 @@
+import { ViewComponent } from './view/view.component';
 import { GraphComponent } from './graph/graph.component';
 import { DailyNutritionComponent } from './daily-nutrition/daily-nutrition.component';
 import { NgModule } from '@angular/core';
@@ -8,6 +9,10 @@ const routes: Routes = [
   {
     path: '',
     component: DailyNutritionComponent,
+  },
+  {
+    path: 'view/1',
+    component: ViewComponent,
   },
   {
     path: 'graph',
